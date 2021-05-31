@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.main{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(58, 56, 48);
+    margin: 5px;
+}
+.main-navbar li{
+    list-style: none;
+}
+.main-top{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-inline-start: auto;
+    margin-top: 50;
+    text-transform: uppercase;
+    /*border-bottom: 1px solid rgb(188, 203, 219);*/
+}
+p{
+    margin-top: 0px;
+    font-size: 10px;
+}
+.main-border{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    text-transform: uppercase;
+    margin-top: 50px;
+    border-top: 1px solid rgb(188, 203, 219);
+    border-bottom: 1px solid rgb(188, 203, 219);
+        
+}
+
+.carrito{
+    margin-right: 150px;
+    text-align: right;
+    color:rgb(233, 16, 124);
+    margin-top: -650;
+       
+}
